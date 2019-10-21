@@ -1,0 +1,95 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: red;
+}
+.first_line {
+    width: 350px;
+    height: 3px;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    margin: 0 auto;
+}
+nav {
+    padding: 25px 0 10px 0;
+}
+nav a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.head {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 30px 0 10px 0;
+    border: 1px solid;
+    background: #000;
+}
+.head_box img {
+    width: 180px;
+    border: 2px solid;
+}
+.head_box a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+.conteiner {
+    width: 100%;
+    display: inline-flex;
+}
+.box_navig {
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 5px;
+    background: chocolate;
+}
+.box_navig a {
+    display: flex;
+    padding: 10px;
+    font-size: 18px;
+    color: orange;
+}
+.center_text {
+    padding: 20px;
+    color: #fff;
+}
+.box_right {
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid;
+}
+.box_right h2 {
+    background: grey;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.line {
+    width: 150px;
+	height: 2px;
+    background-color: silver;
+    margin: 0 auto;
+}
+.item_box p {
+    padding: 15px;
+}
+footer {
+    margin: 20px 0 30px 5px;
+}
+.copiright {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    background: chocolate;
+    font-size: 20px;
+    color: #fff;
+}
